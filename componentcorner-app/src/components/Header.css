@@ -34,3 +34,30 @@ nav li {
 nav li:hover {
   color: #a67c52;
 }
+
+/* Cart styling */
+.cart-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cart-icon {
+  font-size: 1.8rem;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: #a67c52;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
